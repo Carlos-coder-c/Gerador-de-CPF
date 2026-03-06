@@ -12,7 +12,6 @@ cpf_nove_digitos = cpf[:9]
 contagem_10 = 10
 resultado = 0
 
-<<<<<<< HEAD
 for digito_1 in cpf_nove_digitos:
     resultado += int(digito_1 ) * contagem_10 
     contagem_10 -= 1
